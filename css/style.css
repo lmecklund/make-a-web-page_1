@@ -1,0 +1,46 @@
+CSS 
+/* This is a CSS comment */
+body {
+	padding: 20px 10px;
+	font-family: Ariel;
+	max-width: 1000px;
+	margin: 0 auto; /* The 0 refers to the top and bottom margins and the "auto" automatically */
+	font-size: 2px;}                 /* sets the left and right margins to equal values. This centers the body on the page.*/
+h1 {
+	text-align: center;
+  font-size: 17px;
+	color: #296660;}
+p {
+	margin: 8px 0;}
+ul {
+	list-style-type: none; /* this removes the bullets that show up by default in unordered lists */}
+li {
+	font-size: 15px;
+	line-height: 34px; /* each line of text should occupy 44 pixels of height (good for mobile usage and fat fingers) */}
+.lesson {
+	background-color: #400060;
+	border-radius: 15px;
+	color: gray;
+	padding: 8px;
+	margin: 8px auto;}
+h2 {
+	margin: 8px;}
+.concept {
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 8px;
+	border-radius: 4px;
+	color: brown;}
+.concept-title {
+	font-size: 24px;
+	margin: 8px;
+	text-align: center;
+	color: #296660;}
+.concept-description {
+	font-weight: lighter;
+	margin: 6px;}
+.code {
+	font-family: Courier;
+	color : purple;
+	font-weight: bold;
+	padding-left:  4px;}
